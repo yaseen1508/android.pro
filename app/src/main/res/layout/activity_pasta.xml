@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cbiryani">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:background="#B8A4A4"
+            android:text="@string/pas"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/spaguetti" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dd"
+            android:textColor="@color/black"
+            android:background="#E8D2B3"
+
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INGREDIENTS
+1 package Smoked Sausage
+½ teaspoon salt
+¼ teaspoon ground black pepper
+2 tablespoons chopped Italian parsley
+½ cup (2 ounces) shredded Asiago or Parmesan cheese
+½ cup julienne-cut sun dried tomatoes *
+½ cup boiling water
+1 package (16 ounces) uncooked bow tie (farfalle) pasta
+2 cups frozen baby lima beans
+2 tablespoons olive oil
+½ cup coarsely chopped onion
+2 garlic cloves, minced
+¼ teaspoon crushed red pepper flakes (optional)"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="#FFDDDD"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIRECTIONS
+        Cut sausage in ½ cubes; set aside. Pour boiling water over tomatoes; let stand 20 minutes. Cook pasta in a large pan of boiling water for 2 minutes; add lima beans and cook 8 minutes longer or until pasta is tender. Drain and keep warm. While pasta is cooking, heat olive oil in a large non-stick skillet over medium-high heat until hot; add sausage and onion. Cook, stirring frequently for 4 minutes or until sausage is lightly browned and onion is tender. Add garlic and red pepper flakes; cook stirring constantly 1 minute. Stir in tomatoes and soaking liquid, salt and pepper; heat through.
+        Toss pasta and lima beans with sausage mixture and parsley. Top with shredded cheese."
+            android:textColor="@color/black"
+            android:background="#A2A9D1"
+
+            android:textSize="25sp"/>
+
+
+</LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cbiryani">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#ED958E"
+            android:text="@string/head"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cbb1"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="664dp"
+            android:background="#F8E2E2"
+            android:text="Popular throughout India, Pakistan, and the Middle East, this chicken dinner varies depending on the region but typically consists of rice layered with lavishly spiced meat or vegetables. Our take calls for toasting and grinding herbs such as cloves, peppercorns, cardamom, cumin, and coriander for depth of flavor."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="#F7DCFB"
+            android:text="INGREDIENTS
+2 cups basmati rice,
+
+Kosher salt,
+
+3 cloves,
+
+10 peppercorns,
+
+6 pods cardamom, seeds removed,
+
+2 teaspoons whole cumin seeds,,
+
+1 teaspoon whole coriander seeds,
+
+1/8 teaspoon ground mace,
+
+1/4 teaspoon saffron, crumbled,
+
+1/3 cup whole milk,
+
+6 tablespoons vegetable oil, plus more for frying onions,
+
+1 3/4 pounds boneless skinless chicken thighs, cut into 2-inch pieces,
+
+6 onions, thinly sliced (8 cups),
+
+2-inch piece ginger, peeled and minced (2 tablespoons),
+
+4 cloves garlic, minced (1 tablespoon),
+
+2 Thai chiles, sliced 1/8 inch thick,
+
+1 tablespoon tomato paste,
+
+1/2 cup plain whole-milk yogurt,
+
+1/2 teaspoon ground turmeric,
+
+One 2-inch cinnamon stick,
+
+2 bay leaves"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="78dp"
+            android:textColor="@color/black"
+            android:text="Step 1
+Preheat oven to 350 degrees. Place rice in a medium bowl. Cover with cold water and rub rice to release starch. Drain. Repeat until liquid is almost clear. Cover with water and let stand 30 minutes. Drain. Bring 3 quarts water to a boil. Add 1 tablespoon salt and rice. Return to a boil. Cook 4 minutes. Drain.
+
+Step 2
+In a small skillet over medium-high heat, toast the cloves, peppercorns, cardamom, cumin, and coriander until fragrant, about 2 minutes. Let cool briefly, then grind in a spice grinder. Stir in mace. Soak saffron in milk.
+
+Step 3
+Meanwhile, heat 2 tablespoons oil in a large straight-sided skillet over medium-high. Working in two batches, season chicken with salt and cook until brown on one side, 5 minutes. Remove from pan. Reduce heat to medium. Add 2 tablespoons oil and the onions. Season with salt. Cook until soft and golden, about 10 minutes. Remove from heat. Reserve 1 cup onions and coarsely chop the rest.
+
+Step 4
+Return chopped onions to pan with 2 tablespoons oil over medium-high heat. Add the ginger, garlic, chiles, the ground toasted spices, tomato paste, and 1 teaspoon salt. Cook, stirring, until fragrant, 30 seconds to 1 minute. Add yogurt, turmeric, cinnamon stick, bay leaves, and 1/2 cup water. Bring to a boil. Add chicken, return to a boil, then reduce to low and simmer, covered, until chicken is just cooked through, 10 to 15 minutes.
+
+Step 5
+Heat 1 inch oil in a small saucepan over medium-high until a piece of onion dropped in oil sizzles. Working in small batches, fry reserved onions until crisp and golden, 1 to 2 minutes. Drain on paper towels.
+
+Step 6
+When chicken has simmered for 15 minutes, remove from sauce. Bring sauce to a boil and cook, uncovered, to reduce slightly, about 3 minutes. Add juices from resting chicken. Remove half of the sauce. Return half of the chicken to pan and add half of the rice. Sprinkle with one-third of the crisped onions, half of the saffron milk, the reserved sauce, and remaining chicken. Top with remaining rice and another one-third of onions. Drizzle with remaining saffron milk.
+
+Step 7
+Bake, covered, for 30 minutes. Remove from oven. Remove lid and wrap in a clean kitchen towel. Return lid to pan and let stand 10 minutes. Serve with remaining onions."
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:layout_editor_absoluteX="-29dp"
+            android:textSize="20sp"
+            android:background="#CBF1F6"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

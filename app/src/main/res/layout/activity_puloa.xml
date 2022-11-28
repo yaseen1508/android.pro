@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".puloa">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#F1FB89"
+            android:text="V E G  P U L A O"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="383dp"
+            android:layout_height="550dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="392dp"
+            android:background="#B1F8B4"
+
+            android:text="Ingredients
+2 cups basmati rice
+
+2 tablespoons canola oil
+
+1 onion, minced
+
+1 ½ tablespoons minced fresh ginger
+
+1 teaspoon cumin seeds
+
+1 teaspoon ground fenugreek
+
+¼ teaspoon ground turmeric
+
+4 garlic cloves, minced
+
+1 cup frozen peas
+
+1 carrot, minced
+
+½ cup minced green beans
+
+½ cup minced cauliflower
+
+3 ½ cups vegetable broth
+
+½ cup chopped cilantro
+
+Local Offers
+00000 Change
+Oops! We cannot find any ingredients on sale near you."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A5B0EC"
+            android:text="Directions
+Rinse and drain rice 3 times. Place rice in a bowl and pour in enough water to cover; set aside to soak.
+
+Heat oil in a large saucepan over medium heat; cook and stir onion, ginger, cumin seeds, fenugreek, and turmeric until onion just begins to brown, 5 to 10 minutes. Add garlic and continue to cook and stir until onions are browned, 5 to 10 minutes more.
+
+Drain rice and mix into onion mixture; cook and stir until rice is dry and lightly toasted, about 3 minutes. Stir peas, carrot, green beans, and cauliflower into rice mixture; pour in broth. Cover saucepan and bring liquid to a rapid boil; reduce heat to low and simmer until rice is tender, 12 to 15 minutes.
+
+Remove saucepan from heat and fluff rice with a fork. Stir cilantro into rice, return lid, and let rest for 3 to 5 minutes."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

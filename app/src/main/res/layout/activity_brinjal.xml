@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".brinjal"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="35sp"
+            android:text="B R I N J A L  C U R R Y"
+            android:textAlignment="center"
+            android:background="#CC3AE4"/>
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:background="#E7F18A"
+    android:text="INGREDIENTS     :     200 gm cubed eggplant/ brinjal
+1 chopped onion
+1 tablespoon refined oil
+1 dash mustard seeds
+1/2 teaspoon ground garlic
+1/2 teaspoon ground poppy seeds
+1 clove
+1/2 tablespoon powdered jaggery
+1/2 teaspoon red chilli powder
+1 pinch powdered turmeric
+1/4 cup tamarind extract
+1/2 cup grated coconut
+1/2 teaspoon moong dal
+1/8 teaspoon asafoetida
+1/2 teaspoon coriander powder
+1/2 inch cinnamon stick
+1/2 teaspoon yoghurt (curd)
+2 pinches salt
+1/2 teaspoon ground sesame seeds"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="DIRECTIONS   :   Step 1 Fry the moong dal with onions
+Heat oil in a pan over moderate flame. Fry the moong dal, mustard seeds, asafoetida with onions. Saute the onions till they turn slightly pinkish in hue. Add ground garlic and fry. Keep stirring till the raw smell of the garlic goes away.
+
+Step 2 Add coriander powder and brinjals
+Now add coriander powder and brinjals. Fry till the brinjals change colour. Cover the pan with a lid and allow it to cook on low flame. Simmer till brinjals are soft. Add poppy seeds, cinnamon and cloves. Stir well.
+
+Step 3 Add the spices and curd
+After a few minutes, add curd, jaggery and salt. Keep stirring. Add sesame seeds, turmeric powder, coconut, chilli powder and cook for a few minutes. Now add tamarind pulp mixed with a little water. Simmer for 5 to 7 minutes with the lid on.
+
+Step 4 Garnish and serve hot
+Once the curry is ready, transfer it to a serving bowl and garnish with coriander leaves. This delicious main dish recipe goes well with naan and steamed rice. Serve hot."
+/>
+    </LinearLayout>
+
+</ScrollView>

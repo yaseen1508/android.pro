@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dal">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FB7979"
+            android:text="D A L"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="457dp"
+            android:layout_height="543dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dal" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:text="Ingredients
+
+Deselect All
+
+1/4 cup ghee or clarified butter
+
+1 1/2 cups diced onions
+
+2 tablespoons minced garlic
+
+2 jalapeno peppers, cored, seeded and minced
+
+1 tablespoon cumin seeds, toasted and crushed
+
+2 cups orange lentils
+
+2 tablespoons finely minced ginger
+
+2 tablespoons Garam Masala, recipe follows
+
+1 tablespoon salt
+
+1 teaspoon ground black pepper
+
+1 tablespoon sugar
+
+1 bay leaf
+
+3/4 cup diced tomatoes
+
+1/2 tablespoon rice vinegar
+
+8 cups chicken stock
+Garam Masala:
+
+1 tablespoon black peppercorns
+
+1/2 tablespoon whole cloves
+
+1 tablespoon plus 1/2 teaspoon cardamom seeds
+
+3 tablespoons cumin seeds
+
+3 tablespoons coriander seeds
+
+Four 3-inch cinnamon sticks
+
+1/4 cup dried red chiles
+
+1/2 tablespoon freshly grated nutmeg"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            android:background="#AEF3B1"
+            android:text="Directions
+In a large pot, heat the ghee and stir-fry the onions just until wilted, do not brown. Add the garlic, jalapeno, cumin, lentils, ginger, curry powder, salt, pepper, sugar and bay leaf. Saute for 1 to 2 minutes, until the herbs and spices bloom (aromatic). Add the tomatoes and deglaze with the vinegar. Add the chicken stock, bring to a boil and then lower to a simmer and cook until lentils are tender, stirring occasionally. Taste and adjust seasoning with cumin, salt, pepper and sugar.
+Garam Masala:
+In a large saute pan, combine the black peppercorns, cloves, cardamom seeds, cumin seeds, coriander seeds, cinnamon sticks, and dried red chiles. Over medium heat, cook just until slightly toasted, stirring constantly. Turn off heat and stir in the grated nutmeg.
+Transfer to a food processor and grind to a fine powder. Pass through a fine strainer. Allow to cool to room temperature. Store in an airtight jar. Use as needed.
+"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

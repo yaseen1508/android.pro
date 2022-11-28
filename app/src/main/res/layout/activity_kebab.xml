@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kebab">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#A2ACE3"
+            android:text="K E B A B"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="378dp"
+            android:layout_height="575dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kebab" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="436dp"
+            android:background="#E8E2F4"
+            android:text="Kebab (Arabic: كباب, kabāb, [kaˈbaːb]; Turkish: kebap, [cebɑp]) or kabob (North American) is a type of cooked meat dish that originates from cuisines of the Middle East. Many variants of the category are popular around the world, including the skewered shish kebab and the doner kebab with bread"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients
+3 pounds boneless, skinless chicken breasts, cut into large cubes
+
+1 cup plain yogurt
+
+1 cup lemon juice
+
+1 cup onion juice
+
+1 cup olive oil
+
+½ teaspoon chopped garlic
+
+½ teaspoon ground black pepper
+
+½ teaspoon saffron
+
+8 skewers, or as needed"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDCCFB"
+            android:text="Directions
+Mix yogurt, lemon juice, onion juice, olive oil, garlic, black pepper, and saffron together in a large bowl. Add chicken pieces to the marinade and toss to coat. Cover with plastic wrap and marinate, 8 hours to overnight.
+
+Preheat an outdoor grill for medium-high heat and lightly oil the grate.
+
+Remove chicken from marinade; thread through skewers. Discard unused marinade.
+
+Cook on the preheated grill, turning frequently, until golden brown on all sides and meat is no longer pink in the center, about 8 minutes per side."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

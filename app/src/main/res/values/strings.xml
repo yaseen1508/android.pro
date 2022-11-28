@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="jj">jj</string>
+    <string name="cb">chicken biryani</string>
+    <string name="kk">welcome choose your recipe for today:)</string>
+    <string name="cc">Chicken Biryani</string>
+    <string name="ps" />
+    <string name="ps1">pasta</string>
+    <string name="noo">noodles</string>
+    <string name="br">brinjal curry</string>
+    <string name="vp">veg puloa</string>
+    <string name="bp">butter paneer</string>
+    <string name="c65">chicken 65</string>
+    <string name="kb">kebab</string>
+    <string name="d">dal</string>
+    <string name="b1">b1</string>
+    <string name="b2">b2</string>
+    <string name="mc">My Chef</string>
+    <string name="butt1">enter</string>
+    <string name="buttton">enter</string>
+    <string name="nn">x</string>
+    <string name="head">C H I C K E N  B I R Y A N I</string>
+    <string name="d1" />
+    <string name="d2" />
+    <string name="pas">P A S T A</string>
+    <string name="dd">Pasta (US: /ˈpɑːstə/, UK: /ˈpæstə/; Italian pronunciation: [ˈpasta]) is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking. Rice flour, or legumes such as beans or lentils, are sometimes used in place of wheat flour to yield a different taste and texture, or as a gluten-free alternative. Pasta is a staple food of Italian cuisine.[</string>
+    <string name="n">N O O D L E S</string>
+    <string name="title_activity_vegpuloa">vegpuloa</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

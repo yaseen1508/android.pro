@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noodles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B2BAE1"
+            android:text="@string/n"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ramen" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noodles are a type of food made from unleavened dough which is either rolled flat and cut, stretched, or extruded, into long strips or strings. Noodles are a staple food in many cultures (for example, Chinese noodles, Filipino noodles, Indonesian noodles, Japanese noodles, Korean noodles, Vietnamese noodles, and Italian pasta) and made into a variety of shapes. "
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="#0FF0CAFA"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Ingredients
+2 to 2-1/2 cups all-purpose flour, divided
+1/2 teaspoon salt
+3 large eggs, lightly beaten
+1 tablespoon cold water
+1 tablespoon canola oil"
+            android:textSize="25sp"
+            android:background="#B9EABB"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="#A6DAE1"
+            android:text="Directions
+Place 2 cups flour and salt on a pastry board or in a deep bowl. Make a well in a center of the flour; add eggs and water. Gradually mix with hands or a wooden spoon until well blended.
+Gather into a ball and knead on a floured surface until smooth, about 10 minutes. If necessary, add remaining flour to keep dough from sticking to surface or hands. Divide the dough into thirds. On a lightly floured surface, roll each section into a paper-thin rectangle. Dust top of dough with flour to prevent sticking while rolling. Trim the edges and flour both sides of dough.
+Roll dough, jelly-roll style. Using a sharp knife, cut 1/4-in. slices. Unroll noodles and allow to dry on paper towels before cooking.
+To cook, bring salted water to a rapid boil. Add 1 tablespoon oil to the water; drop noodles into water and cook until tender but not soft, about 7-10 minutes."
+/>
+    </LinearLayout>
+</ScrollView>
+
